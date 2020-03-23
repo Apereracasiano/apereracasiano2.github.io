@@ -1,0 +1,45 @@
+/* flexboxform */
+
+form label, imput {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+form textarea {
+  flex: 1 0 220px;
+  width: 270px;
+}
+
+.boton {
+  width: 270px;
+  align-self: flex-end;
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #C6C6C6;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+*{box-sizing: border-box;}
+
+@media only screen and (max-width: 320px){
+  form {
+    background-color:#312783 ;
+  }
+}
+
+form{
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #312783;
+}
+
+form imput[type="submit"]:hover{
+  cursor: pointer;
+}
