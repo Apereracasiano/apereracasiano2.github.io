@@ -48,7 +48,7 @@ textarea{
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:8px 0;
-	resize: vertical | horizontal | none | both;
+	
 	resize:none;
 	display:block;
 }
@@ -59,7 +59,7 @@ textarea{
   }
 }
 
-@media (max-width: 600px  {
+@media (max-width: 600px)  {
 
   form {
     flex: 1 46%;
